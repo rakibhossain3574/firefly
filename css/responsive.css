@@ -1,0 +1,261 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .slider-text {
+        margin-top: 300px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    .inner-slider {
+        min-height: 650px;
+        background-size: cover;
+    }
+    .service {
+        padding-bottom: 100px;
+    }
+
+}
+
+
+/* laptop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        padding: 20px 17px;
+    }
+    .nav-icon.f-right {
+        margin-top: 12px;
+    }
+    .slider-text {
+        margin-top: 250px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .slider-text p {
+        font-size: 15px;
+    }
+    .inner-slider {
+        min-height: 580px;
+        background-size: cover;
+    }
+    .service {
+        padding-bottom: 50px;
+    }
+    .career .section-title h2 {
+        padding-top: 200px;
+    }
+    h2 {
+        font-size: 29px;
+    }
+    .career {
+        min-height: 800px;
+    }
+    .single-counter span {
+        font-size: 38px;
+    }
+    .single-counter h5 {
+        font-size: 13px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main-menu ul li a {
+        padding: 16px 12px;
+    }
+    .nav-icon.f-right {
+        margin-top: 9px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    .slider-text p {
+        font-size: 14px;
+        padding: 0 60px;
+    }
+    .slider-text {
+        margin-top: 230px;
+    }
+    .inner-slider {
+        min-height: 550px;
+        background-size: cover;
+    }
+    .partners h3 {
+        font-size: 19px;
+    }
+    .partners-text p {
+        font-size: 13px;
+    }
+    .partners-text {
+        padding: 9px 0px 9px 0;
+    }
+    #about {
+        padding-bottom: 40px;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    .service {
+        padding-bottom: 0;
+    }
+    #services {
+        padding-top: 60px;
+    }
+    .section-title {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    .single-counter span {
+        font-size: 38px;
+    }
+    .single-counter h5 {
+        font-size: 13px;
+    }
+    .single-counter {
+        margin-bottom: 50px;
+    }
+    .career {
+        min-height: 674px;
+    }
+    .career .section-title h2 {
+        padding-top: 169px;
+    }
+    #services {
+        padding-top: 60px;
+    }
+    .single-service {
+        margin-top: 30px;
+    }
+    .contact label {
+        font-size: 11px;
+    }
+    form {
+        padding: 50px 45px;
+    }
+    .contact input {
+        height: 55px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+    .contact input.btn {
+        font-size: 11px;
+        padding: 17px 20px;
+        line-height: 0;
+        height: 36px;
+        margin-top: 20px;
+    }
+    footer {
+        padding-top: 300px;
+    }
+    .inner-footer {
+        padding-top: 40px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .main-header {
+        padding: 10px 0;
+    }
+    .slider-text {
+        margin-top: 170px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .slider-text p {
+        font-size: 14px;
+        padding: 0 0;
+    }
+    .inner-slider {
+        min-height: 520px;
+        background-size: cover;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 12px 24px;
+    }
+    .partners-text {
+        padding: 0px 0px 40px 0;
+    }
+    .partners h3 {
+        font-size: 19px;
+    }
+    .partners-text p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .section-title {
+        padding-right: 0;
+    }
+    .service {
+        padding-top: 65px;
+        padding-bottom: 0;
+    }
+    h6 {
+        font-size: 11px;
+    }
+    .single-service {
+        margin-top: 45px;
+    }
+    .section-title h2 {
+        line-height: 1.5;
+    }
+    .career .section-title h2 {
+        padding-top: 160px;
+    }
+    .single-counter span {
+        font-size: 35px;
+    }
+    .single-counter h5 {
+        font-size: 13px;
+    }
+    .single-counter {
+        margin-bottom: 50px;
+    }
+    .career {
+        min-height: 813px;
+    }
+    .contact label {
+        font-size: 9px;
+    }
+    form {
+        padding: 35px 30px;
+    }
+    .contact input {
+        height: 50px;
+    }
+    textarea#message {
+        height: 100px;
+    }
+    .contact input.btn {
+        font-size: 10px;
+        padding: 15px 20px;
+        line-height: 0;
+        height: 30px;
+        margin-top: 20px;
+    }
+    .inner-footer {
+        padding-top: 35px;
+    }
+    footer.pb-65 {
+        padding-bottom: 20px;
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
